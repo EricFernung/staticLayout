@@ -5,35 +5,22 @@ element.syle {
 }
 
 body.mtt {
+    background-image: url(./assets/background-stars-desktop.jpeg);
     background-color: #000000;
     color: greenyellow;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 600;
-    height: 6083.84px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    position: relative;
-    width: 100%; 
-    -webkit-font-smoothing: antialiased;
+    /* height: 6083.84px; */
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
+    width: 100vw; 
 }
-.style-pack-theming {
-    color: greenyellow;
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    height: 0px;
-    
-    width: 100%;
-    webkit-font-smoothing: antialiased;
+.background-image img {
+    margin-left: auto;
+    margin-right: auto;
 }
 body, h1, h2, h3, h4, h5, h6, input, textarea, select {
     -webkit-text-size-adjust: none;
@@ -132,7 +119,7 @@ ul {
     
 }
 #nav-header-bg {
-    background-image: url(../staticLayout/assets/navigation_stars.jpg);
+    background-image: url(../assets/navigation_stars.jpg);
     background-position-x: 50%;
     background-position-y: 50%;
     background-size: cover;
@@ -172,12 +159,12 @@ span.facebook-icon {
     background-color: #999;
     height: 200px;
     width: 200px;
-    background-image: url(../staticLayout/assets/facebook.svg);
+    background-image: url(../assets/facebook.svg);
     
 }
     
 #nav-sw-logo    {
-    background-image: url(../staticLayout/assets/sw_logo.png);
+    background-image: url(../assets/sw_logo.png);
     background-position-x: 50%;
     background-position-y: 50%;
     background-repeat: no-repeat;
@@ -439,7 +426,7 @@ ul#section-links {
     height: 100%;
 }
 
-}
+
 #main-body {
     color: rgb(170, 170, 170);
     display: block;
@@ -502,7 +489,7 @@ ul#section-links {
     margin-inline-end: 0px;
 }
 #background-styles {
-    background-image: url(../staticLayout/assets/background-stars-desktop.jpeg);
+    background-image: url(./assets/background-stars-desktop.jpeg);
     background-repeat: no-repeat;
     height: 100%;
     position: fixed;
@@ -536,11 +523,11 @@ ul#section-links {
     width: 100%;
 }
     
-img {
+/* img { 
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+ } */
 .content-overlay {
     position: relative;
     display: flex;
@@ -579,7 +566,3 @@ img {
     text-size-adjust: 100%;
     width: 947.333px;
 }
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
